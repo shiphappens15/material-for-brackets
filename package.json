@@ -2,7 +2,7 @@
     "title": "Material",
     "name": "material-dark",
     "description": "Material Dark for Brackets",
-    "version": "1.00",
+    "version": "1.0.0",
     "author": "shiphappens15",
     "engines": {
         "brackets": ">=0.42.0"
