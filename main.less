@@ -37,8 +37,30 @@
 /* Define some variables used in multiple places */
 @background: #263238;
 @foreground: rgba(233, 237, 237, 1);
-@yellow: #FFCB6B;
+
+/* Material Colors */
+@red: #FF5370;
+@red-light: #E53935;
+@pink: #f07178;
+@pink-light: #FF5370;
 @orange: #F78C6C;
+@orange-light: #F76D47;
+@yellow: #FFCB6B;
+@yellow-light: #FFB62C;
+@green: #C3E88D;
+@green-light: #91B859;
+@paleblue: #B2CCD6;
+@paleblue-light: #8796B0;
+@cyan: #89DDFF;
+@cyan-light: #39ADB5;
+@blue: #82AAFF;
+@blue-light: #6182B8;
+@purple: #C792EA;
+@purple-light: #7C4DFF;
+@violet: #bb80b3;
+@violet-light: #945EB8;
+@brown: #ab7967;
+@brown-light: #ab7967;
 
 /* Code Styling */
 
@@ -123,7 +145,7 @@
 
 .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
     /* Ensure visibility against gray inline editor background */
-    background-color: #2e5c00;
+    background-color: @pink-light;
     color: @foreground !important;
 }
 
